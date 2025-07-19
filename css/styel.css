@@ -1,0 +1,166 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.container{
+   width:  1340px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.heder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+ 
+}
+.heder-i{
+    display: flex;
+    align-items: center;
+   
+}
+.heder-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#frame{
+    background-image: url(../pages/glavnicard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.frame-cards__titl{
+    font-size: 52px;
+    color: white;
+}
+.frame-cards__text{
+    font-size: 20px;
+    color: aliceblue;
+    padding-bottom: 52px;
+}
+.frame-cards__btn{
+    width: 312px;
+    height: 60px;
+    color:rgb(1, 1, 1);
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    
+}
+.frame-cards__btn:hover{
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 2px 5px 15px gray;
+}
+.frame-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 115px;
+}
+.Avtomabil-nove__car{
+    display: flex;
+    align-items: center;
+    width: 628px;
+    justify-content: space-between;
+}
+.Avtomabil{
+    padding-top: 48px;
+    padding-bottom: 106px;
+}
+.Avtomabil_titl{
+    font-size: 44px;
+    padding-top: 95px;
+
+
+}
+.Avtomabil_text{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.Avtomabil-pod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 628px;
+}
+.Avtomabil-cardlar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+}
+.zayvku{
+      padding-bottom: 200px   ;
+   padding-top: 40px;
+   position: absolute;
+}
+.btn{
+    position: relative;
+    left: 390px;
+    top: 250px;
+    width: 208px;
+    height: 44px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px 10px gray;
+}
+.Avtomabil-mjk{
+    margin-left: 720px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.nas-salon{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nas-salon__cards img{
+ background-color: black;
+ width: 44px;
+ height: 44px;
+ border-radius: 5px;
+}
+.nas-cards__cardlar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.nas-cards__cardlar li{
+    font-size: 20px;
+}
+.nas-salon__btn{
+    width: 208px;
+    height: 44px;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.nas-salon__btn:hover{
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 2px 5px 10px gray;
+}
